@@ -1,0 +1,30 @@
+{
+    "sessionAuthHost": "devx3.symphony.com",
+    "sessionAuthPort": 443,
+    "keyAuthHost": "devx3.symphony.com",
+    "keyAuthPort": 443,
+    "podHost": "devx3.symphony.com",
+    "podPort": 443,
+    "agentHost": "devx3.symphony.com",
+    "agentPort": 443,
+
+    "truststorePath": "certificates/all_symphony_certs_truststore",
+    "truststorePassword": "changeit",
+
+    "botUsername": "postman-ecroze",
+    "botEmailAddress": "fake@symphony.com",
+
+    "botPrivateKeyPath": "certificates/",
+    "botPrivateKeyName": "fbbot_privatekey.pkcs8",
+
+    "botCertPath": "",
+    "botCertName": "",
+    "botCertPassword": "",
+
+    "proxyURL": "",
+    "proxyUsername": "",
+    "proxyPassword": "",
+    "keyManagerProxyURL": "",
+    "keyManagerProxyUsername": "",
+    "keyManagerProxyPassword": ""
+}

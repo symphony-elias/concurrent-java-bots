@@ -1,0 +1,31 @@
+{
+  "sessionAuthHost": "devx3.symphony.com",
+  "sessionAuthPort": 443,
+  "keyAuthHost": "devx3.symphony.com",
+  "keyAuthPort": 443,
+  "podHost": "devx3.symphony.com",
+  "podPort": 443,
+  "agentHost": "devx3.symphony.com",
+  "agentPort": 443,
+
+  "truststorePath": "certificates/all_symphony_certs_truststore",
+  "truststorePassword": "changeit",
+
+  "botUsername": "bot-ecroze",
+  "botEmailAddress": "megabot@symphony.com",
+
+  "botPrivateKeyPath": "certificates/",
+  "botPrivateKeyName": "rsa-private-megabot.pem",
+
+  "botCertPath": "",
+  "botCertName": "",
+  "botCertPassword": "",
+
+  "proxyURL": "",
+  "proxyUsername": "",
+  "proxyPassword": "",
+  "keyManagerProxyURL": "",
+  "keyManagerProxyUsername": "",
+  "keyManagerProxyPassword": "",
+  "datafeedIdFilePath": "bot-ecroze"
+}
