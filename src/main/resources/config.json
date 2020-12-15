@@ -1,11 +1,11 @@
 {
-    "sessionAuthHost": "devx3.symphony.com",
-    "sessionAuthPort": 443,
-    "keyAuthHost": "devx3.symphony.com",
-    "keyAuthPort": 443,
-    "podHost": "devx3.symphony.com",
+    "sessionAuthHost": "sym-devx1-dev-chat-glb-1-ause1-all.symphony.com",
+    "sessionAuthPort": 8444,
+    "keyAuthHost": "sym-devx1-dev-chat-glb-1-ause1-all.symphony.com",
+    "keyAuthPort": 8444,
+    "podHost": "devx1.symphony.com",
     "podPort": 443,
-    "agentHost": "devx3.symphony.com",
+    "agentHost": "devx1.symphony.com",
     "agentPort": 443,
 
     "truststorePath": "certificates/all_symphony_certs_truststore",
@@ -14,17 +14,10 @@
     "botUsername": "postman-ecroze",
     "botEmailAddress": "fake@symphony.com",
 
-    "botPrivateKeyPath": "certificates/",
-    "botPrivateKeyName": "fbbot_privatekey.pkcs8",
+    "botPrivateKeyPath": "",
+    "botPrivateKeyName": "",
 
-    "botCertPath": "",
-    "botCertName": "",
-    "botCertPassword": "",
-
-    "proxyURL": "",
-    "proxyUsername": "",
-    "proxyPassword": "",
-    "keyManagerProxyURL": "",
-    "keyManagerProxyUsername": "",
-    "keyManagerProxyPassword": ""
+    "botCertPath": "classpath:/certificates/",
+    "botCertName": "postman-ecroze.p12",
+    "botCertPassword": "changeit"
 }

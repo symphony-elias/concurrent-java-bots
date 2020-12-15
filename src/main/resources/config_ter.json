@@ -1,0 +1,19 @@
+{
+  "sessionAuthHost": "eis-dev10-agent1.symlabs.info",
+  "sessionAuthPort": 443,
+  "keyAuthHost": "eis-dev10-agent1.symlabs.info",
+  "keyAuthPort": 443,
+  "podHost": "eis-dev10-agent1.symlabs.info",
+  "podPort": 443,
+  "agentHost": "eis-dev10-agent1.symlabs.info",
+  "agentPort": 443,
+
+  "truststorePath": "certificates/all_symphony_certs_truststore",
+  "truststorePassword": "changeit",
+
+  "botUsername": "postman-ecroze",
+  "botEmailAddress": "fakemail@symphony.com",
+
+  "botPrivateKeyPath": "certificates/",
+  "botPrivateKeyName": "fbbot_privatekey.pkcs8"
+}

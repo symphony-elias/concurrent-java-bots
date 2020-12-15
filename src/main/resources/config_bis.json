@@ -1,31 +1,19 @@
 {
-  "sessionAuthHost": "devx3.symphony.com",
+  "sessionAuthHost": "devx1.symphony.com",
   "sessionAuthPort": 443,
-  "keyAuthHost": "devx3.symphony.com",
+  "keyAuthHost": "devx1.symphony.com",
   "keyAuthPort": 443,
-  "podHost": "devx3.symphony.com",
+  "podHost": "devx1.symphony.com",
   "podPort": 443,
-  "agentHost": "devx3.symphony.com",
+  "agentHost": "devx1.symphony.com",
   "agentPort": 443,
 
-  "truststorePath": "certificates/all_symphony_certs_truststore",
+  "truststorePath": "classpath:/certificates/all_symphony_certs_truststore",
   "truststorePassword": "changeit",
 
-  "botUsername": "bot-ecroze",
-  "botEmailAddress": "megabot@symphony.com",
+  "botUsername": "postman-ecroze",
+  "botEmailAddress": "fakemail@symphony.com",
 
-  "botPrivateKeyPath": "certificates/",
-  "botPrivateKeyName": "rsa-private-megabot.pem",
-
-  "botCertPath": "",
-  "botCertName": "",
-  "botCertPassword": "",
-
-  "proxyURL": "",
-  "proxyUsername": "",
-  "proxyPassword": "",
-  "keyManagerProxyURL": "",
-  "keyManagerProxyUsername": "",
-  "keyManagerProxyPassword": "",
-  "datafeedIdFilePath": "bot-ecroze"
+  "botPrivateKeyPath": "classpath:/certificates/",
+  "botPrivateKeyName": "fbbot_privatekey.pkcs8"
 }

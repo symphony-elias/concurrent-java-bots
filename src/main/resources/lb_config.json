@@ -1,0 +1,9 @@
+{
+  "loadBalancing": {
+    "method": "external",
+    "stickySessions": true
+  },
+  "agentServers": [
+    "eis-dev10-agent1.symlabs.info"
+  ]
+}
